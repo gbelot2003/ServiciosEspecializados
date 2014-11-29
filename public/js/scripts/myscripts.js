@@ -3,6 +3,7 @@ var materializejs = {
 	ready : function(){
 		$(".button-collapse").sideNav(); 
 		$('ul.tabs').tabs();
+		$('.modal-trigger').leanModal();
 	}
 };
 

@@ -45,6 +45,8 @@ class HomeController extends BaseController {
 		return View::make('home.contactanos');
 	}
 
-
+	public function equipo(){
+		return View::make('home.partials.equipo');
+	}
 
 }

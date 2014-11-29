@@ -1,7 +1,7 @@
+"use strict";
 module.exports = function (grunt) {
-  "use strict";
-
-  // Config...
+ 
+   // Config...
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     watch: {
@@ -13,7 +13,7 @@ module.exports = function (grunt) {
     concat: {
       content: {
         src: ['./app/content/**/*.js', '!./js/myApp.gen.js'],
-        dest: './js/myapp.gen.js'
+        dest: './js/app/myapp.gen.js'
       }
     },
     jshint: {

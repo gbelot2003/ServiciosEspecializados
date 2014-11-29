@@ -1,0 +1,129 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'nvm', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'nvm', null ]
+6 verbose cache add name=undefined spec="nvm" args=["nvm",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'nvm',
+7 verbose parsed url   path: 'nvm',
+7 verbose parsed url   href: 'nvm' }
+8 silly lockFile ed8ccd57-nvm nvm
+9 verbose lock nvm /home/vagrant/.npm/ed8ccd57-nvm.lock
+10 silly lockFile ed8ccd57-nvm nvm
+11 silly lockFile ed8ccd57-nvm nvm
+12 verbose addNamed [ 'nvm', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 994bb1db-nvm nvm@
+15 verbose lock nvm@ /home/vagrant/.npm/994bb1db-nvm.lock
+16 silly addNameRange { name: 'nvm', range: '*', hasData: false }
+17 verbose request where is /nvm
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id f4c30f5104910003
+20 verbose url raw /nvm
+21 verbose url resolving [ 'https://registry.npmjs.org/', './nvm' ]
+22 verbose url resolved https://registry.npmjs.org/nvm
+23 verbose request where is https://registry.npmjs.org/nvm
+24 info trying registry request attempt 1 at 07:20:35
+25 verbose etag "EN2R5LTCJW58K36CL55KJ2R4H"
+26 http GET https://registry.npmjs.org/nvm
+27 http 304 https://registry.npmjs.org/nvm
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Sat, 29 Nov 2014 07:20:36 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Sat, 29 Nov 2014 07:20:36 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"EN2R5LTCJW58K36CL55KJ2R4H"',
+28 silly registry.get     age: '28',
+28 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1417245636.235700,VS0,VE0',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/nvm from cache
+30 silly addNameRange number 2 { name: 'nvm', range: '*', hasData: true }
+31 silly addNameRange versions [ 'nvm', [ '0.0.0', '0.0.1', '0.0.2', '0.0.3' ] ]
+32 verbose addNamed [ 'nvm', '0.0.3' ]
+33 verbose addNamed [ '0.0.3', '0.0.3' ]
+34 silly lockFile dc94ebd7-nvm-0-0-3 nvm@0.0.3
+35 verbose lock nvm@0.0.3 /home/vagrant/.npm/dc94ebd7-nvm-0-0-3.lock
+36 silly lockFile dc94ebd7-nvm-0-0-3 nvm@0.0.3
+37 silly lockFile dc94ebd7-nvm-0-0-3 nvm@0.0.3
+38 silly lockFile 994bb1db-nvm nvm@
+39 silly lockFile 994bb1db-nvm nvm@
+40 silly resolved [ { name: 'nvm',
+40 silly resolved     version: '0.0.3',
+40 silly resolved     description: 'Install and managing different versions of node and installing local versions into repos.',
+40 silly resolved     dependencies: { mkdirp: '~0.3.3' },
+40 silly resolved     devDependencies: {},
+40 silly resolved     bin: { nvm: './bin/nvm' },
+40 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+40 silly resolved     repository: { type: 'git', url: 'git://github.com/brianloveswords/nvm.git' },
+40 silly resolved     keywords: [ 'local', 'node' ],
+40 silly resolved     author: { name: 'Brian J. Brennan', url: '@brianloveswords' },
+40 silly resolved     license: 'http://wtfpl.org/',
+40 silly resolved     bugs: { url: 'https://github.com/brianloveswords/nvm/issues' },
+40 silly resolved     homepage: 'https://github.com/brianloveswords/nvm',
+40 silly resolved     _id: 'nvm@0.0.3',
+40 silly resolved     dist:
+40 silly resolved      { shasum: '1f39d2dfd16bf661534a3f7145134f4bbbef6da4',
+40 silly resolved        tarball: 'http://registry.npmjs.org/nvm/-/nvm-0.0.3.tgz' },
+40 silly resolved     _from: 'nvm@',
+40 silly resolved     _npmVersion: '1.4.3',
+40 silly resolved     _npmUser: { name: 'brianloveswords', email: 'brianloveswords@gmail.com' },
+40 silly resolved     maintainers: [ [Object] ],
+40 silly resolved     directories: {},
+40 silly resolved     _shasum: '1f39d2dfd16bf661534a3f7145134f4bbbef6da4',
+40 silly resolved     _resolved: 'https://registry.npmjs.org/nvm/-/nvm-0.0.3.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install nvm@0.0.3 into /usr/lib
+42 info installOne nvm@0.0.3
+43 verbose lib/node_modules/nvm unbuild
+44 verbose tar unpack /home/vagrant/.npm/nvm/0.0.3/package.tgz
+45 silly lockFile 6ca41e3f-tar-usr-lib-node-modules-nvm tar:///usr/lib/node_modules/nvm
+46 verbose lock tar:///usr/lib/node_modules/nvm /home/vagrant/.npm/6ca41e3f-tar-usr-lib-node-modules-nvm.lock
+47 silly lockFile 933eb7d4-agrant-npm-nvm-0-0-3-package-tgz tar:///home/vagrant/.npm/nvm/0.0.3/package.tgz
+48 verbose lock tar:///home/vagrant/.npm/nvm/0.0.3/package.tgz /home/vagrant/.npm/933eb7d4-agrant-npm-nvm-0-0-3-package-tgz.lock
+49 silly gunzTarPerm modes [ '775', '664' ]
+50 error Error: EACCES, mkdir '/usr/lib/node_modules/nvm'
+50 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/nvm']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/usr/lib/node_modules/nvm',
+50 error   fstream_type: 'Directory',
+50 error   fstream_path: '/usr/lib/node_modules/nvm',
+50 error   fstream_class: 'DirWriter',
+50 error   fstream_stack:
+50 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+50 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+50 error      'Object.oncomplete (fs.js:107:15)' ] }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.13.0-11-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "nvm" "-g"
+54 error cwd /home/vagrant/Code/Laravel/public
+55 error node -v v0.10.33
+56 error npm -v 1.4.28
+57 error path /usr/lib/node_modules/nvm
+58 error fstream_path /usr/lib/node_modules/nvm
+59 error fstream_type Directory
+60 error fstream_class DirWriter
+61 error code EACCES
+62 error errno 3
+63 error stack Error: EACCES, mkdir '/usr/lib/node_modules/nvm'
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 error fstream_stack Object.oncomplete (fs.js:107:15)
+65 verbose exit [ 3, true ]

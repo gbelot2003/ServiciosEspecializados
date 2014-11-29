@@ -463,7 +463,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 602.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -485,9 +485,13 @@
 	},
 	"expanded_folders":
 	[
+		"/home/ajax/Code/Laravel"
 	],
 	"file_history":
 	[
+		"/home/ajax/Code/Laravel/app/routes.php",
+		"/home/ajax/Code/Laravel/vendor/predis/predis/lib/Predis/ResponseObjectInterface.php",
+		"/home/ajax/Code/Laravel/readme.md",
 		"/home/ajax/Code/Laravel/General-Laravel1.sublime-project",
 		"/home/ajax/www/test/untitled.sublime-project",
 		"/home/ajax/www/test/angularDrupal.sublime-project",
@@ -612,10 +616,7 @@
 		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
 		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
 		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
-		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
-		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-google-cdn/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/http-signature/.dir-locals.el",
-		"/home/ajax/proyectos/nodejs/tareas/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request/node_modules/http-signature/.dir-locals.el",
-		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-google-cdn/node_modules/bower/node_modules/request/node_modules/http-signature/.dir-locals.el"
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el"
 	],
 	"find":
 	{
@@ -717,6 +718,10 @@
 		"selected_items":
 		[
 			[
+				"route",
+				"app/routes.php"
+			],
+			[
 				"index",
 				"app/index.html"
 			],
@@ -776,6 +781,14 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"~/Code/Laravel/FrontEnd-Laravel1.sublime-project"
+			],
+			[
+				"fron",
+				"~/www/servicios/FronEnd.sublime-workspace"
+			]
 		],
 		"width": 380.0
 	},

@@ -10,6 +10,12 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
+
+Route::get("/partials/equipo", array(
+	'as' => "partials/equipo",
+	'uses' => "HomeController@equipo"
+));
+
 Route::group(array('before' => 'guest'), function(){
 
 	Route::get('/', array(
