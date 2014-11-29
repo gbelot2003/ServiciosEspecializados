@@ -1,0 +1,803 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"$i",
+				"$items"
+			],
+			[
+				"$co",
+				"$content"
+			],
+			[
+				"$con",
+				"$content_nids"
+			],
+			[
+				"ent",
+				"entity_type"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"$ite",
+				"$item_per_page"
+			],
+			[
+				"ng-v",
+				"ng-view"
+			],
+			[
+				"ng-s",
+				"ng-src	AngularJS"
+			],
+			[
+				"ng-h",
+				"ng-href	AngularJS"
+			],
+			[
+				"arra",
+				"array(<list>)"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"webkit-colun",
+				"-webkit-column-gap:   (property)"
+			],
+			[
+				"$modal",
+				"$modalInstance"
+			],
+			[
+				"fo",
+				"form-inline	 main.css"
+			],
+			[
+				"label",
+				"label-default	 main.css"
+			],
+			[
+				"btn-d",
+				"btn-danger	 main.css"
+			],
+			[
+				"bt",
+				"btn-warning	 main.css"
+			],
+			[
+				"mod",
+				"modal-footer	 main.css"
+			],
+			[
+				"btn-s",
+				"btn-success	 main.css"
+			],
+			[
+				"ng-re",
+				"ng-repeat"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"angular",
+				"angular-ui"
+			],
+			[
+				"im",
+				"img-circle	 main.css"
+			],
+			[
+				"te",
+				"text-center	 main.css"
+			],
+			[
+				"localStora",
+				"localStorageServiceProvider"
+			],
+			[
+				"input-",
+				"input-group-btn	 main.css"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"input",
+				"input-group-btn	 main.css"
+			],
+			[
+				"form",
+				"form-group	 main.css"
+			],
+			[
+				"pai",
+				"padding"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"bot",
+				"both"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"$loca",
+				"$locationProvider	AngularJS(DI)"
+			],
+			[
+				"$route",
+				"$routeProvider	AngularJS"
+			],
+			[
+				"loca",
+				"$location	AngularJS"
+			],
+			[
+				"$rou",
+				"$route	AngularJS"
+			],
+			[
+				"$rout",
+				"$routeParams	AngularJS"
+			],
+			[
+				"$loc",
+				"$locationProvider	AngularJS"
+			],
+			[
+				"$ro",
+				"$routeProvider	AngularJS"
+			],
+			[
+				"$lo",
+				"$locationProvider	AngularJS(DI)"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"ta",
+				"table-column"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"non",
+				"none"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"tr",
+				"transition	CSS - transition: ;"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"is",
+				"isBreakPoint"
+			],
+			[
+				"be",
+				"behaviors"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"$fi",
+				"$fields"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"TE",
+				"text-align"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"add",
+				"addNew"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"ng-in",
+				"ng-init	AngularJS"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"ng-sc",
+				"ng-src	AngularJS"
+			],
+			[
+				"ng-rea",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"ver",
+				"verde1"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"font-",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"lor",
+				"Snippet: lorem - Medium paragraph"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lorie",
+				"Snippet: lorem - Medium paragraph"
+			],
+			[
+				"lorem",
+				"Snippet: lorem - One sentence <p> "
+			],
+			[
+				"lorem ",
+				"Snippet: lorem - One sentence <p> "
+			],
+			[
+				"lorem -",
+				"Snippet: lorem - Short paragraph"
+			],
+			[
+				"lore",
+				"Snippet: lorem - Medium paragraph"
+			],
+			[
+				"hip",
+				"Hipster Ipsum: Occupy"
+			],
+			[
+				"hio",
+				"Hipster Ipsum: Occupy"
+			],
+			[
+				"bo",
+				"AngularJS: Toggle - Disable Built-in Element Completions"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"bs3-pa",
+				"Snippet: bs3-page header"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/ajax/Code/Laravel/General-Laravel1.sublime-project",
+		"/home/ajax/www/test/untitled.sublime-project",
+		"/home/ajax/www/test/angularDrupal.sublime-project",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/js/content/controllers/angularController.js",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/js/content/app.js",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/js/content/services/services.js",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/angularcontent.module",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/js/content/controllers/test.js",
+		"/home/ajax/www/test/sites/all/themes/bootstrap_subtheme/templates/page.tpl.php",
+		"/home/ajax/proyectos/nodejs/cines/app/js/app.js",
+		"/home/ajax/proyectos/nodejs/cines/app/js/controllers.js",
+		"/home/ajax/proyectos/nodejs/cines/app/js/services.js",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/js/content/partials/nosotros.html",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/all-angular.tpl.php",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/js/content/controllers/nosotrosController.js",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/.jshintrc",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/js/content.gen.js",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/js/content/partials/main.html",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/js/content/partials",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/Gruntfile.js",
+		"/home/ajax/proyectos/nodejs/prototipos/app/styles/main.scss",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/angularcontent.info",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/js/app.js",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/package.json",
+		"/home/ajax/www/test/sites/all/modules/angularcontent/.gitignore",
+		"/home/ajax/www/test/sites/all/modules/angularinit/angularinit.info",
+		"/home/ajax/www/test/sites/all/modules/nodejs/nodejs.config.js",
+		"/home/ajax/www/test/sites/all/themes/bootstrap_subtheme/less/content.less",
+		"/home/ajax/www/test/sites/all/themes/bootstrap_subtheme/less/variables.less",
+		"/home/ajax/www/test/sites/all/themes/bootstrap/bootstrap_subtheme/less/content.less",
+		"/home/ajax/www/drupaltest/sites/all/themes/firt_sass/sass/firt-sass.styles.scss",
+		"/home/ajax/www/drupaltest/sites/all/themes/firt_sass/sass/abstractions/_mixins.scss",
+		"/home/ajax/www/test/sites/all/themes/bootstrap_subtheme/less/style.less",
+		"/home/ajax/www/test/sites/all/themes/bootstrap_subtheme/bootstrap_subtheme.info",
+		"/home/ajax/proyectos/nodejs/cines/app/css/app.css",
+		"/home/ajax/proyectos/nodejs/cines/app/partials/lista-pelis.html",
+		"/home/ajax/proyectos/nodejs/cines/app/index.html",
+		"/home/ajax/proyectos/nodejs/cines/app/partials/partial2.html",
+		"/home/ajax/proyectos/nodejs/cines/app/app.js",
+		"/home/ajax/proyectos/nodejs/tareas/app/index.html",
+		"/home/ajax/proyectos/nodejs/prototipos/app/views/add-miembros.html",
+		"/home/ajax/proyectos/nodejs/prototipos/app/views/miembros.html",
+		"/home/ajax/proyectos/nodejs/prototipos/app/scripts/controllers/miembros.js",
+		"/home/ajax/proyectos/nodejs/prototipos/app/scripts/app.js",
+		"/home/ajax/proyectos/nodejs/prototipos/app/miembros.json",
+		"/home/ajax/proyectos/nodejs/prototipos/app/index.html",
+		"/home/ajax/proyectos/nodejs/prototipos/app/views/galeria.html",
+		"/home/ajax/proyectos/nodejs/prototipos/app/scripts/controllers/galeria.js",
+		"/home/ajax/proyectos/nodejs/prototipos/app/scripts/controllers/articulos.js",
+		"/home/ajax/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ajax/proyectos/nodejs/prototipos/app/views/articulos.html",
+		"/home/ajax/proyectos/nodejs/prototipos/app/scripts/controllers/main.js",
+		"/home/ajax/proyectos/nodejs/prototipos/app/views/main.html",
+		"/home/ajax/proyectos/nodejs/prototipos/bower.json",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/angular-bootstrap/ui-bootstrap.js",
+		"/home/ajax/proyectos/nodejs/prototipos/.sass-cache/8926f0ad8b8b7ea886870d04cdf2fd6c5197295c/bootstrap.scssc",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap-sprockets.js",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/angular-ui/build/angular-ui.js",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/angular-ui/build/angular-ui.css",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/angular/angular-csp.css",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/angular/angular.js",
+		"/home/ajax/proyectos/nodejs/prototipos/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/region-usage-json/alt-na.json",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/angular-ui/build/angular-ui-ieshiv.js",
+		"/home/ajax/proyectos/nodejs/prototipos/node_modules/grunt-svgmin/node_modules/svgo/node_modules/sax/test/buffer-overrun.js",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_utilities.scss",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_labels.scss",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_badges.scss",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_panels.scss",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_labels.scss",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_tables.scss",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/jquery/src/css/var/getStyles.js",
+		"/home/ajax/proyectos/nodejs/prototipos/node_modules/grunt-contrib-jshint/node_modules/jshint/src/style.js",
+		"/home/ajax/proyectos/nodejs/prototipos/node_modules/jshint-stylish/stylish.js",
+		"/home/ajax/proyectos/nodejs/prototipos/node_modules/karma/node_modules/log4js/test/smtpAppender-test.js",
+		"/home/ajax/proyectos/nodejs/prototipos/bower_components/bootstrap-sass-official/sache.json",
+		"/home/ajax/proyectos/nodejs/prototipos/node_modules/grunt-contrib-uglify/node_modules/.bin/uglifyjs",
+		"/home/ajax/proyectos/nodejs/prototipos/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js",
+		"/home/ajax/proyectos/nodejs/prototipos/node_modules/grunt-contrib-clean/AUTHORS",
+		"/home/ajax/proyectos/nodejs/prototipos/node_modules/grunt-google-cdn/node_modules/bower/node_modules/mout/lang/isNull.js",
+		"/home/ajax/proyectos/nodejs/prototipos/.tmp/styles/main.css",
+		"/home/ajax/proyectos/nodejs/tareas/app/scripts/controllers/main.js",
+		"/home/ajax/proyectos/nodejs/tareas/dist/index.html",
+		"/home/ajax/proyectos/nodejs/tareas/test/spec/controllers/main.js",
+		"/home/ajax/proyectos/nodejs/tareas/bower_components/angular-local-storage/.bower.json",
+		"/home/ajax/proyectos/nodejs/tareas/bower_components/angular-local-storage/.bowerrc",
+		"/home/ajax/proyectos/nodejs/tareas/bower_components/angular-local-storage/.gitattributes",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/karma/node_modules/connect/node_modules/multiparty/examples/azureblobstorage.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/multiparty/examples/azureblobstorage.js",
+		"/home/ajax/proyectos/nodejs/tareas/bower_components/angular-local-storage/dist/angular-local-storage.min.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/features-json/sql-storage.json",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/features-json/namevalue-storage.json",
+		"/home/ajax/proyectos/nodejs/tareas/bower_components/angular-local-storage/dist/angular-local-storage.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/karma/node_modules/socket.io/lib/store.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/karma/node_modules/log4js/test/smtpAppender-test.js",
+		"/home/ajax/proyectos/nodejs/tareas/bower_components/angular-ui-sortable/sortable.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/features-json/screen-orientation.json",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-build/node_modules/download/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-google-cdn/node_modules/bower/node_modules/bower-registry-client/node_modules/request/tests/test-localAddress.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-htmlmin/node_modules/html-minifier/node_modules/cli/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/load-grunt-tasks/node_modules/findup-sync/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-google-cdn/node_modules/bower/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/karma/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt/node_modules/glob/examples/usr-local.js",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-google-cdn/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/http-signature/.dir-locals.el",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request/node_modules/http-signature/.dir-locals.el",
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-google-cdn/node_modules/bower/node_modules/request/node_modules/http-signature/.dir-locals.el"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'',",
+			"mixin",
+			"load",
+			" \n",
+			"url",
+			"				.views-slideshow-pager-field-item {\n					display: inline;\n					.views-field-field-image{\n						display: inline;\n					}\n					.views-content-field-image{\n						display: inline;\n					}\n					\n				}",
+			"7",
+			"    	\n",
+			"radi",
+			"radio",
+			"first"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "General-Laravel1.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"ui-bootstr",
+				"bower_components/angular-bootstrap/ui-bootstrap.js"
+			],
+			[
+				"angular-ui",
+				"bower_components/angular-ui/build/angular-ui.js"
+			],
+			[
+				"ui-b",
+				"bower_components/angular-bootstrap/ui-bootstrap.js"
+			],
+			[
+				"bowe",
+				"bower.json"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"styles.sc",
+				"bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss"
+			],
+			[
+				"u",
+				"bower_components/angular-bootstrap/ui-bootstrap.js"
+			],
+			[
+				"app",
+				"app/scripts/app.js"
+			],
+			[
+				"main.js",
+				"app/scripts/controllers/main.js"
+			],
+			[
+				"main.ht",
+				"app/views/main.html"
+			],
+			[
+				"karm",
+				"test/karma.conf.js"
+			],
+			[
+				"appc",
+				"default/app/libs/app_controller.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 405.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

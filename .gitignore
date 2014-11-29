@@ -1,0 +1,12 @@
+/bootstrap/compiled.php
+/public/bower_components
+/public/node_modules
+/app/config/mail.php
+/app/config/database.php
+/vendor
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db

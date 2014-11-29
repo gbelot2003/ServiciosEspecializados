@@ -1,0 +1,53 @@
+.descripcion {
+	padding: 6.5rem 0;
+}
+
+.resaltadoBox{
+	@extend .z-depth-2;
+	background: white;
+	@include opacity();
+	padding: 1.5rem 0;
+	p {
+		color: black;
+		padding: 0 1rem;
+	}
+}
+
+.resaltado {
+	color:white;
+	@include text-shadow();
+}
+
+
+
+#mision{
+	margin: 0 0 10rem 0;	
+}
+
+
+.misionVision{
+	background: url('../img/bg-3.jpg');
+	padding: 2rem 0;
+}
+
+
+/*******************/
+@media #{$small-and-down} {
+      // styles for small screens and down
+
+}
+
+@media #{$medium-and-up} {
+      // styles for medium screens and larger
+
+}
+
+@media #{$medium-and-down} {
+      // styles for medium screens and down
+
+}
+
+@media #{$large-and-up} {
+    // styles for large screens and up
+
+}

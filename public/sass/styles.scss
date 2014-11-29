@@ -1,0 +1,80 @@
+@import "materialize";
+@import "effects";
+@import "animations";
+/**** Estilos Propios *****/
+
+body{
+
+}
+
+a{
+    cursor: pointer;
+}
+
+h1.title, h2.title, h3.title, h4.title, h5.title{
+	@extend .red-text;
+}
+
+.colection-image {
+	width: 35px;
+	border-radius: 25px;
+	margin-right: 1rem;
+}
+
+
+.panel {
+
+}
+
+.panel h4{
+	display: inline;
+}
+
+.fixed {
+	position: fixed;
+	top:0;
+	width: 100%;
+	z-index: 10;
+	opacity: 0.8;
+}
+
+/*************************/
+
+footer{
+	height:100%;
+	min-height: 5rem;
+	background:#EE6E73;
+	color:white;
+	padding: 5em 0;
+
+}
+
+
+/***** paginas *****/
+
+@import "pages/_home";
+@import "pages/_proyecto";
+
+/*******************/
+@media #{$small-and-down} {
+      // styles for small screens and down
+
+}
+
+@media #{$medium-and-up} {
+      // styles for medium screens and larger
+
+}
+
+@media #{$medium-and-down} {
+      // styles for medium screens and down
+
+}
+
+@media #{$large-and-up} {
+    // styles for large screens and up
+
+}
+
+
+
