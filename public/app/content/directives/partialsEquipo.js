@@ -12,6 +12,14 @@
 						$http.get('detalles/' + $scope.tester).success(function(data, status){
 							console.log(data);
 							$scope.name = data.name;
+							$scope.location = data.location;
+							$scope.imagen = data.imagen;
+							$scope.website = data.website;
+							$scope.facebook = data.facebook;
+							$scope.tweeter = data.tweeter;
+							$scope.cargo = data.cargo;
+							$scope.about = data.about;
+							$scope.github = data.github;
 
 						}).error(function(data, status, header, config){
 							console.log('error');
