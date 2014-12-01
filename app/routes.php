@@ -16,6 +16,11 @@ Route::get("/partials/equipo", array(
 	'uses' => "HomeController@equipo"
 ));
 
+Route::get("/partials/mision", array(
+	'as' => "partials/mision",
+	'uses' => "HomeController@mision"
+));
+
 Route::group(array('before' => 'guest'), function(){
 
 	Route::get('/', array(
@@ -48,5 +53,19 @@ Route::group(array('before' => 'guest'), function(){
 		'as' => "contactanos",
 		'uses' => "HomeController@contactanos"
 	));
+
+	Route::get('/template/detalles', array(
+		'as' => "template/detalles",
+		'uses' => "HomeController@detalles"
+	));
 	
+
+	Route::get("/detalles", array(
+		'as' => "detalles",
+		'uses' => "DetallesController@index"
+	));
+
+	Route::get("detalles/{id}", array(
+		'uses' => "DetallesController@show"
+	));
 });

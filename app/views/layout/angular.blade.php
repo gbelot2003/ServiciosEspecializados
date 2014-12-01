@@ -9,6 +9,7 @@
       <script type="text/javascript" src="{{ URL::asset('bower_components/angular-route/angular-route.js') }}"></script>
       <script type="text/javascript" src="{{ URL::asset('bower_components/angular-animate/angular-animate.js') }}"></script>
       <script type="text/javascript" src="{{ URL::asset('bower_components/angular-scroll/angular-scroll.js') }}"></script>
+      <script type="text/javascript" src="{{ URL::asset('bower_components/angular-morph/dist/angular-morph.js') }}"></script>
       <script type="text/javascript" src="{{ URL::asset('js/app/myapp.gen.js') }}"></script>
     </head>
     
@@ -26,7 +27,6 @@
       <script type="text/javascript" src="{{ URL::asset('js/waves.js') }}"></script>
       <script type="text/javascript" src="{{ URL::asset('js/leanModal.js') }}"></script>     
       <script type="text/javascript" src="{{ URL::asset('js/tabs.js') }}"></script>
-
       <script type="text/javascript" src="{{ URL::asset('js/scripts/myscripts.js') }}"></script>
     </body>
   </html>

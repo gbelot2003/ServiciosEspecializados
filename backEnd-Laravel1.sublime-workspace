@@ -488,9 +488,10 @@
 	],
 	"file_history":
 	[
+		"/home/ajax/Code/Laravel/app/controllers/HomeController.php",
 		"/home/ajax/Code/Laravel/app/config/remote.php",
 		"/home/ajax/Code/Laravel/app/database/production.sqlite",
-		"/home/ajax/Code/Laravel/app/controllers/HomeController.php",
+		"/home/ajax/Code/Laravel/app/views/home/partials/gerardo.blade.php",
 		"/home/ajax/Code/Laravel/app/views/hello.php",
 		"/home/ajax/.config/sublime-text-3/Packages/User/Gist.sublime-settings",
 		"/home/ajax/Code/Laravel/FrontEnd-Laravel1.sublime-project",
@@ -614,8 +615,7 @@
 		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
 		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
 		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
-		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el",
-		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el"
+		"/home/ajax/proyectos/nodejs/tareas/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/http-signature/.dir-locals.el"
 	],
 	"find":
 	{
@@ -781,12 +781,12 @@
 		"selected_items":
 		[
 			[
-				"glo",
+				"",
 				"~/Code/Laravel/General-Laravel1.sublime-project"
 			],
 			[
-				"",
-				"~/Code/Laravel/FrontEnd-Laravel1.sublime-project"
+				"glo",
+				"~/Code/Laravel/General-Laravel1.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -3,7 +3,8 @@
     var myApp = angular.module('myApp', [
         'ngRoute', 
         'ngAnimate', 
-        'duScroll'
+        'duScroll',
+        'ngMorph' 
     ], 
     function($interpolateProvider) {
             $interpolateProvider.startSymbol('<%');

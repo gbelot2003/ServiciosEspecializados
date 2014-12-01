@@ -13006,11 +13006,17 @@ footer {
 
 /*******************/
 /* line 1, ../sass/pages/_proyecto.scss */
+.close-x {
+  text-align: right;
+  font-size: 2rem;
+}
+
+/* line 6, ../sass/pages/_proyecto.scss */
 .descripcion {
   padding: 6.5rem 0;
 }
 
-/* line 5, ../sass/pages/_proyecto.scss */
+/* line 10, ../sass/pages/_proyecto.scss */
 .resaltadoBox {
   background: white;
   filter: alpha(opacity=50);
@@ -13023,24 +13029,24 @@ footer {
   opacity: 0.5;
   padding: 1.5rem 0;
 }
-/* line 10, ../sass/pages/_proyecto.scss */
+/* line 15, ../sass/pages/_proyecto.scss */
 .resaltadoBox p {
   color: black;
   padding: 0 1rem;
 }
 
-/* line 16, ../sass/pages/_proyecto.scss */
+/* line 21, ../sass/pages/_proyecto.scss */
 .resaltado {
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
-/* line 23, ../sass/pages/_proyecto.scss */
+/* line 26, ../sass/pages/_proyecto.scss */
 #mision {
   margin: 0 0 10rem 0;
 }
 
-/* line 28, ../sass/pages/_proyecto.scss */
+/* line 31, ../sass/pages/_proyecto.scss */
 .misionVision {
   background: url("../img/bg-3.jpg");
   padding: 2rem 0;

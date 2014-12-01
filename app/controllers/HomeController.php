@@ -46,7 +46,18 @@ class HomeController extends BaseController {
 	}
 
 	public function equipo(){
-		return View::make('home.partials.equipo');
+
+		$detalles = Detalle::all();
+		return View::make('home.partials.equipo')
+			->with('detalles',  $detalles);
+	}
+
+	public function mision(){
+		return View::make('home.partials.mision');
+	}
+
+	public function detalles(){
+		return View::make('home.partials.detalles');
 	}
 
 }

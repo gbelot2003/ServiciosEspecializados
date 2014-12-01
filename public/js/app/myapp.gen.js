@@ -3,7 +3,8 @@
     var myApp = angular.module('myApp', [
         'ngRoute', 
         'ngAnimate', 
-        'duScroll'
+        'duScroll',
+        'ngMorph' 
     ], 
     function($interpolateProvider) {
             $interpolateProvider.startSymbol('<%');
@@ -57,8 +58,8 @@
 	]);
 })();
 (function(){
-    angular.module('myApp').controller('proyectoController', ['$scope', '$document',
-        function($scope, $document) {
+    angular.module('myApp').controller('proyectoController', ['$scope', '$document', '$http',
+        function($scope, $document, $http) {
             $scope.pageAnimate = 'pagina-proyecto';
             $scope.pageClass = 'view-slide-in page-proyecto';
 
@@ -70,7 +71,7 @@
                 var someElement = angular.element(document.getElementById('equipo'));
                         $document.scrollToElementAnimated(someElement);
                 };
-            }
+        }
     ]);
 })();
 (function(){
@@ -115,6 +116,39 @@
 		return {
 	    	restrict: 'E',
 	        	templateUrl:'partials/equipo',
+	        	controller: function($scope, $http){
+	        		
+	        		$scope.tester = '';
+	        		$scope.testClick = function(clickVar){
+	        			$scope.tester = clickVar; 
+
+						$http.get('detalles/' + $scope.tester).success(function(data, status){
+							console.log(data);
+							$scope.name = data.name;
+
+						}).error(function(data, status, header, config){
+							console.log('error');
+							console.log(header);
+						});
+	        		};
+
+	        		$scope.settings= {
+	        			closeEl: '.close',
+	        			overlay:{
+	        				templateUrl: 'template/detalles'
+	        			}
+	        		};
+	        	
+	        	},
+	        	controllerAs:'equipoController' 
+	         };
+	 	}]);
+})(); 
+(function(){
+	angular.module('myApp').directive('partialsMision', [function () {
+		return {
+	    	restrict: 'E',
+	        	templateUrl:'partials/mision',
 	         };
 	 	}]);
 })(); 

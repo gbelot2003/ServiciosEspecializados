@@ -10,7 +10,7 @@
     "noempty"       : true,
     "nonew"         : true,
     "plusplus"      : false,
-    "quotmark"      : "single",
+    "quotmark"      : "doble",
     "regexp"        : false,
     "undef"         : true,
     "unused"        : false,

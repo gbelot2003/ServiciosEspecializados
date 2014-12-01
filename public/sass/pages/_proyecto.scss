@@ -1,3 +1,8 @@
+.close-x {
+	text-align: right;
+	font-size: 2rem; 
+}
+
 .descripcion {
 	padding: 6.5rem 0;
 }
@@ -17,8 +22,6 @@
 	color:white;
 	@include text-shadow();
 }
-
-
 
 #mision{
 	margin: 0 0 10rem 0;	

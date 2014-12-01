@@ -1,6 +1,6 @@
 (function(){
-    angular.module('myApp').controller('proyectoController', ['$scope', '$document',
-        function($scope, $document) {
+    angular.module('myApp').controller('proyectoController', ['$scope', '$document', '$http',
+        function($scope, $document, $http) {
             $scope.pageAnimate = 'pagina-proyecto';
             $scope.pageClass = 'view-slide-in page-proyecto';
 
@@ -12,6 +12,6 @@
                 var someElement = angular.element(document.getElementById('equipo'));
                         $document.scrollToElementAnimated(someElement);
                 };
-            }
+        }
     ]);
 })();
