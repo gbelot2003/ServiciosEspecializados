@@ -55,13 +55,17 @@ Route::group(array('before' => 'guest'), function(){
 	 */
 	Route::post('/contactanos', array(
 		'as' => 'contactanos',
-		'uses' => "HomeController@contactanosForm",
-		'before' => 'csrf'
+		'uses' => "HomeController@contactanosForm"
 	));
 
 	Route::get('/template/detalles', array(
 		'as' => "template/detalles",
 		'uses' => "HomeController@detalles"
+	));
+
+	Route::get('contactenos/success', array(
+		'as' => "success",
+		'uses' => "HomeController@success"
 	));
 	
 

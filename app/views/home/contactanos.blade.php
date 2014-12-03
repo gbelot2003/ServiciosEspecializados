@@ -34,7 +34,6 @@
 			        <textarea id="body" placeholder="Mensaje *" ng-model="mailBody"></textarea>                
 				</div>
 				<div class="input-field col s12">
-					{{  Form::token() }}	
 					<button type="submit" class="btn btn-default">Enviar</button>				
 				</div>
 			</form>	

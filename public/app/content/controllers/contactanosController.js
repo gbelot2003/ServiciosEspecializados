@@ -1,26 +1,27 @@
 (function(){
-	angular.module('myApp').controller('contactanosController', ['$scope',
-	    function($scope) {
+	angular.module('myApp').controller('contactanosController', ['$scope', '$http',
+	    function($scope, $http) {
 	        $scope.pageClass = 'view-slide-in page-contactenos';
 	        $scope.sendMail = function(){
-	        	console.log('Mail Sended');
 
-	        	var todo = {
-	        		nombre: $scope.mailNombre,
+	        	var todo = {nombre: $scope.mailNombre, email: $scope.mailEmail, organizacion : $scope.mailOrganizacion, asunto: $scope.mailAsunto, body: $scope.mailBody};
+	        	$scope.todos = todo;
+
+	        	$http.post('/contactanos', {
+	        		nombre: $scope.mailnonbre,
 	        		email: $scope.mailEmail,
-	        		organizacion : $scope.mailOrganizacion,
+	        		organizacion: $scope.mailOrganizacion,
 	        		asunto: $scope.mailAsunto,
 	        		body: $scope.mailBody
-	        	};
+	        	}).success(function(data, status, header, config){
+	        		console.log(header, status);
+	        	}).error(function(data, status){
+	        		console.log(data, status);
+	        	});
 
-	        	$scope.todos = todo;
-	        	console.log($scope.todos);
+	        	//console.log($scope.todos);
  				
- 				$scope.mailNombre ='';
-	        	$scope.mailEmail = '';
-	        	$scope.mailOrganizacion = '';
-	        	$scope.mailAsunto = '';
-	        	$scope.mailBody = ''; 
+ 				$scope.mailNombre ='';$scope.mailEmail = '';$scope.mailOrganizacion = '';$scope.mailAsunto = '';$scope.mailBody = ''; 
 
 	        };
 	    }
