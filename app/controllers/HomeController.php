@@ -40,6 +40,28 @@ class HomeController extends BaseController {
 		return View::make('home.contactanos');
 	}
 
+	public function contactanosForm(){
+		// Validación
+		$validator = Validator::make(Input::all(),
+			array
+			(
+				'nombre' => 'required',
+				'email' => 'required | email',
+				'asunto' => 'required',
+				'body' => 'required'
+			)
+		);
+
+		// Si falla Validación
+		if($validator->fails()){
+			return Redirect::to('#/contactanos');
+
+		} else {
+			return Redirect::route('contactanos');
+		}
+
+	}
+
 	public function equipo(){
 
 		$detalles = Detalle::all();

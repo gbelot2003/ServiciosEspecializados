@@ -50,6 +50,15 @@ Route::group(array('before' => 'guest'), function(){
 		'uses' => "HomeController@contactanos"
 	));
 
+	/*
+	 * Ruta de envio de correos
+	 */
+	Route::post('/contactanos', array(
+		'as' => 'contactanos',
+		'uses' => "HomeController@contactanosForm",
+		'before' => 'csrf'
+	));
+
 	Route::get('/template/detalles', array(
 		'as' => "template/detalles",
 		'uses' => "HomeController@detalles"
