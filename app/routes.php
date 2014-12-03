@@ -39,10 +39,6 @@ Route::group(array('before' => 'guest'), function(){
 		'uses' => "HomeController@proyecto"
 	));
 
-	Route::get('/portafolios', array(
-		'as' => "portafolios",
-		'uses' => "HomeController@portafolios"
-	));
 
 	Route::get('/blogs', array(
 		'as' => "blogs",
@@ -68,4 +64,6 @@ Route::group(array('before' => 'guest'), function(){
 	Route::get("detalles/{id}", array(
 		'uses' => "DetallesController@show"
 	));
+
+	Route::resource('portafolios', 'PortafoliosController');
 });

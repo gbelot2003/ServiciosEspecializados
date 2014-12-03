@@ -6,9 +6,9 @@
 		<div class="container">
 			<div class="col s12">
 				<ul du-spy-context class="tabs">
-					<li du-scrollspy?"anchor" class="tab col l4 s12" ng-show="boolChangeClass === true"><a href="#top" du-smooth-scroll>Top</a></li>
 					<li du-scrollspy="anchor" class="tab col l6 s6"><a href="#mision" du-smooth-scroll>Misión & Visión</a></li>
-					<li du-scrollspy="anchor" class="tab col l6 s6"><a href="#equipo" du-smooth-scroll>Equipo y tecnoloías de Trabajo</a></li>
+					<li du-scrollspy="anchor" class="tab col l6 s6"><a href="#equipo" du-smooth-scroll>Equipo y tecnoloías</a></li>
+					<li du-scrollspy?"anchor" class="tab col l4 s12" ng-show="boolChangeClass === true"><a href="#top" du-smooth-scroll>Top</a></li>				
 				</ul>
 			</div>
 		</div>
@@ -21,8 +21,8 @@
 		<div class="row">
 			<div class="content">
 				<div class="text-center">
-					<h3 class="resaltado">Servicios Especializados totalmente en</h3>
-					<h1 class="resaltado">Cloud-Jobs</h1>
+					<h3 class="resaltado">Servicios Especializados en</h3>
+					<h1 class="resaltado">Aplicaciones Web</h1>
 				</div>
 			</div>		
 		</div>

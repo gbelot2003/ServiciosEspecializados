@@ -7,11 +7,13 @@
 				</div>
 				<h1><% name %></h1>
 				<hr >
-				<div class="col s12 m4">
+				
+				<div class="col s12 m6 l4">
 					<img src="<% imagen %>" />
 				</div>
-				<div class="col s12 m8">
-						<div class="col s12">
+
+				<div class="col s12 m6">
+						<div class="col s12 m6 l8">
 							<h3>Cargo: <em><% cargo %></em></h3>							
 						</div>
 					

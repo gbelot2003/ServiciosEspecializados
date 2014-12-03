@@ -1,6 +1,6 @@
 
 /*!
- * Waves v0.5.4
+ * Waves v0.5.3
  * http://fian.my.id/Waves 
  * 
  * Copyright 2014 Alfiana E. Sibuea and other contributors 
@@ -60,12 +60,12 @@
         duration: 500,
 
         show: function(e) {
-
+            
             // Disable right click
             if (e.button === 2) {
-                return false;
+              return false;
             }
-
+          
             var el = this;
 
             // Create ripple
@@ -75,10 +75,11 @@
 
             // Get click coordinate and element witdh
             var pos         = offset(el);
-            var relativeY   = (e.pageY - pos.top) - 45;
-            var relativeX   = (e.pageX - pos.left) - 45;
-            var scale       = 'scale('+((el.clientWidth / 100) * 2.5)+')';
-            
+            var relativeY   = (e.pageY - pos.top) - 10;
+            var relativeX   = (e.pageX - pos.left) - 10;
+            // var scale       = 'scale('+((el.clientWidth / 100) * 2.5)+')';
+            var scale = 'scale(15)';
+          
             // Support for touch devices
             if ('touches' in e) {
               relativeY   = (e.touches[0].pageY - pos.top) - 45;
@@ -243,21 +244,25 @@
         Effect.wrapInput($$('.waves-effect'));
 
         Array.prototype.forEach.call($$('.waves-effect'), function(i) {
-          
-            if ('ontouchstart' in window) {
-              i.addEventListener('touchstart', Effect.show, false);
-              i.addEventListener('touchend',   Effect.hide, false);
-              i.addEventListener('touchcancel',   Effect.hide, false);
-            } else {
-              i.addEventListener('mousedown', Effect.show, false);
-              i.addEventListener('mouseup', Effect.hide, false);
-              i.addEventListener('mouseleave', Effect.hide, false);
-            }
+
+        if ('ontouchstart' in window) {
+          i.addEventListener('mouseup', Effect.hide, false);		              i.addEventListener('touchstart', Effect.show, false);
+          i.addEventListener('mouseleave', Effect.hide, false);		              i.addEventListener('touchend',   Effect.hide, false);
+          i.addEventListener('touchcancel',   Effect.hide, false);
+        } else {
+          i.addEventListener('mousedown', Effect.show, false);
+          i.addEventListener('mouseup', Effect.hide, false);
+          i.addEventListener('mouseleave', Effect.hide, false);
+        }
 
         });
 
     };
 
     window.Waves = Waves;
+
+    $(document).ready(function() {
+      Waves.displayEffect();
+    });
 
 })(window);

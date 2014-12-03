@@ -30,11 +30,6 @@ class HomeController extends BaseController {
 		return View::make('home.proyecto');
 	}
 
-	public function portafolios()
-	{
-		return View::make('home.portafolios');
-	}
-
 	public function blogs()
 	{
 		return View::make('home.blogs');

@@ -50,8 +50,9 @@ footer{
 
 /***** paginas *****/
 
-@import "pages/_home";
-@import "pages/_proyecto";
+@import "pages/home";
+@import "pages/proyecto";
+@import "pages/portafolios";
 
 /*******************/
 @media #{$small-and-down} {

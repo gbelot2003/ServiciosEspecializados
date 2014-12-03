@@ -106,4 +106,13 @@
 	100% {opacity: 0;}
 }
 
-/********************************************/
+/**********Animación de pagina Principal*************/
+
+@-webkit-keyframes SCROLL {
+	from {
+		background-position: 0px 0px, 0px 0px
+	}
+	to { 
+		background-position: 471px 0px, 0px 0px
+	}
+}

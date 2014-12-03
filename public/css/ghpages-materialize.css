@@ -12818,7 +12818,18 @@ ul.table-of-contents a.active {
     opacity: 0;
   }
 }
-/********************************************/
+/**********Animación de pagina Principal*************/
+@-webkit-keyframes SCROLL {
+  /* line 112, ../sass/_effects.scss */
+  from {
+    background-position: 0px 0px, 0px 0px;
+  }
+
+  /* line 115, ../sass/_effects.scss */
+  to {
+    background-position: 471px 0px, 0px 0px;
+  }
+}
 /* line 1, ../sass/_animations.scss */
 .page-home.ng-enter {
   position: absolute;
@@ -12880,33 +12891,8 @@ nav.ng-hide {
   opacity: 0;
 }
 
-/**************************/
-/* line 66, ../sass/_animations.scss */
-#banner1 {
-  background: #007ced;
-  border-top: 3px solid #ef5350;
-  border-bottom: 3px solid #ef5350;
-}
-
-/* line 72, ../sass/_animations.scss */
-#banner-warp {
-  padding: 5.2rem 0;
-  width: 100%;
-  height: 0%;
-  background: url(../img/clouds1000.png) 0 200px;
-  background-size: 100%;
-  background: url(../img/clouds1000.png), url(../img/clouds1200_1.png) 0 300px, url(../img/clouds1000_blur3.png) 100px 250px;
-  background-position: 0px 0px;
-  background-repeat: repeat-x;
-  animation: animatedBackground 35s linear infinite;
-  -moz-animation: animatedBackground 35s linear infinite;
-  -webkit-animation: animatedBackground 35s linear infinite;
-  -ms-animation: animatedBackground 35s linear infinite;
-  -o-animation: animatedBackground 35s linear infinite;
-}
-
 /**************************************/
-/* line 99, ../sass/_animations.scss */
+/* line 63, ../sass/_animations.scss */
 #bg-red,
 #bg-green,
 #bg-dark,
@@ -12923,7 +12909,7 @@ nav.ng-hide {
   opacity: 0;
 }
 
-/* line 115, ../sass/_animations.scss */
+/* line 79, ../sass/_animations.scss */
 #bg-dark {
   opacity: 1;
   background: -webkit-linear-gradient(45deg, #080909 0%, #806969 50%, #616161 100%);
@@ -12932,7 +12918,7 @@ nav.ng-hide {
   background: linear-gradient(45deg, #080909 0%, #806969 50%, #616161 100%);
 }
 
-/* line 122, ../sass/_animations.scss */
+/* line 86, ../sass/_animations.scss */
 #bg-green {
   background: -webkit-linear-gradient(45deg, #07342e 0%, #76c7bc 50%, #1d8c7e 100%);
   background: -o-linear-gradient(45deg, #07342e 0%, #76c7bc 50%, #1d8c7e 100%);
@@ -12949,7 +12935,7 @@ nav.ng-hide {
   -webkit-animation-iteration-count: infinite;
 }
 
-/* line 137, ../sass/_animations.scss */
+/* line 101, ../sass/_animations.scss */
 #bg-red {
   background: -webkit-linear-gradient(45deg, #590000 0%, #bd7474 50%, #8f2222 100%);
   background: -o-linear-gradient(45deg, #590000 0%, #bd7474 50%, #8f2222 100%);
@@ -12966,7 +12952,7 @@ nav.ng-hide {
   -webkit-animation-iteration-count: infinite;
 }
 
-/* line 152, ../sass/_animations.scss */
+/* line 116, ../sass/_animations.scss */
 #bg-blue {
   background: -webkit-linear-gradient(45deg, #0f333e 0%, #6cb0c4 50%, #1287a8 100%);
   background: -o-linear-gradient(45deg, #0f333e 0%, #6cb0c4 50%, #1287a8 100%);
@@ -13034,21 +13020,32 @@ footer {
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
 }
-/* line 12, ../sass/pages/_home.scss */
+/* line 14, ../sass/pages/_home.scss */
 .page-home .container {
   padding-top: 17.5rem;
 }
-/* line 15, ../sass/pages/_home.scss */
+/* line 17, ../sass/pages/_home.scss */
 .page-home .bgimage {
   margin: 0 auto;
-  width: 476px;
+  width: 100%;
   height: 0px;
   overflow: hidden;
   padding-top: 179px;
-  background: url("../img/glowlogo.png") no-repeat;
+  background: url("../img/glowlogo.png") no-repeat top center;
 }
 
 /*******************/
+@media only screen and (max-width: 600px) {
+  /* line 31, ../sass/pages/_home.scss */
+  .page-home .container {
+    padding-top: 9.5rem;
+  }
+  /* line 34, ../sass/pages/_home.scss */
+  .page-home .bgimage {
+    width: 100%;
+    background: url("../img/glowlogo_s.png") no-repeat top center;
+  }
+}
 /* line 1, ../sass/pages/_proyecto.scss */
 .close-x {
   text-align: right;
@@ -13096,5 +13093,81 @@ footer {
   padding: 2rem 0;
 }
 
-/*******************/
+/**************************/
+/* line 40, ../sass/pages/_proyecto.scss */
+#banner1 {
+  background: #007ced;
+  border-top: 3px solid #ef5350;
+  border-bottom: 3px solid #ef5350;
+}
+
+/* line 46, ../sass/pages/_proyecto.scss */
+#banner-warp {
+  padding: 5.2rem 0;
+  width: 100%;
+  height: 0%;
+  background: url(../img/clouds1000.png) 0 200px;
+  background-size: 100%;
+  background: url(../img/clouds1000.png), url(../img/clouds1200_1.png) 0 300px, url(../img/clouds1000_blur3.png) 100px 250px;
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 35s linear infinite;
+  -moz-animation: animatedBackground 35s linear infinite;
+  -webkit-animation: animatedBackground 35s linear infinite;
+  -ms-animation: animatedBackground 35s linear infinite;
+  -o-animation: animatedBackground 35s linear infinite;
+}
+
+/********************************************************/
+@media only screen and (max-width: 600px) {
+  /* line 70, ../sass/pages/_proyecto.scss */
+  nav .brand-logo {
+    font-size: 1.5rem !important;
+  }
+
+  /* line 75, ../sass/pages/_proyecto.scss */
+  h3.resaltado {
+    font-size: 2rem;
+  }
+
+  /* line 79, ../sass/pages/_proyecto.scss */
+  h1.resaltado {
+    font-size: 2.3rem;
+  }
+
+  /* line 87, ../sass/pages/_proyecto.scss */
+  ul.tabs li.tab a {
+    font-size: 0.7rem;
+  }
+
+  /* line 91, ../sass/pages/_proyecto.scss */
+  .resaltadoBox {
+    padding: 0.5rem;
+  }
+
+  /* line 95, ../sass/pages/_proyecto.scss */
+  .descripcion {
+    padding: 1.5rem 0;
+  }
+
+  /* line 99, ../sass/pages/_proyecto.scss */
+  #banner-warp {
+    padding: 1.2rem 0;
+  }
+}
+/* line 1, ../sass/pages/_portafolios.scss */
+span.card-title {
+  display: block;
+  background-color: black;
+  width: 100%;
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -webkit-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  -moz-opacity: 0.5;
+  -ms-opacity: 0.5;
+  -o-opacity: 0.5;
+  opacity: 0.5;
+}
+
 /*******************/

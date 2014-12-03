@@ -12,7 +12,9 @@
       <!--  Android 5 Chrome Color -->
       <meta name="theme-color" content="#EE6E73"/>
     
+      <link type="text/css" rel="stylesheet" href="{{ URL::asset('bin/materialize.css') }}"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="{{ URL::asset('css/ghpages-materialize.css') }}"  media="screen,projection"/>
+
       
       <script type="text/javascript" src="{{ URL::asset('bower_components/angular/angular.js') }}"></script>
       <script type="text/javascript" src="{{ URL::asset('bower_components/angular-route/angular-route.js') }}"></script>
@@ -29,14 +31,12 @@
     @include('layout.footer')
     <!--Import jQuery before materialize.js-->
 
-      <script type="text/javascript" src="{{ URL::asset('bower_components/jquery/dist/jquery.js') }}"></script>
-      <script type="text/javascript" src="{{ URL::asset('js/materialize.js') }}"></script>
-      <script type="text/javascript" src="{{ URL::asset('js/sideNav.js') }}"></script>
-      <script type="text/javascript" src="{{ URL::asset('js/parallax.js') }}"></script>
-      <script type="text/javascript" src="{{ URL::asset('js/waves.js') }}"></script>
-      <script type="text/javascript" src="{{ URL::asset('js/leanModal.js') }}"></script>     
-      <script type="text/javascript" src="{{ URL::asset('js/tabs.js') }}"></script>
-      <script type="text/javascript" src="{{ URL::asset('js/scripts/myscripts.js') }}"></script>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>     
+      <script type="text/javascript" src="{{ URL::asset('js/jquery.timeago.js') }}"></script> 
+      <script type="text/javascript" src="{{ URL::asset('js/prism.js') }}"></script>
+      <script type="text/javascript" src="{{ URL::asset('bin/materialize.js') }}"></script>
+      <script type="text/javascript" src="{{ URL::asset('js/init.js') }}"></script>
+      <script type="text/javascript" src="{{ URL::asset('js/scripts/myscripts.js') }}"></script>      
     </body>
   </html>
   

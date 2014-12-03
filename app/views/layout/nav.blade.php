@@ -1,4 +1,4 @@
-<nav id="top" class="nav" ng-controller="topbarController" ng-hide="$location.path() === '/'">
+<nav id="top" ng-controller="topbarController" ng-hide="$location.path() === '/'">
   <div class="nav-wrapper">
     <a href="#/" class="brand-logo right">Servicios Especializados</a>
     <ul id="nav-mobile" class="left side-nav">
