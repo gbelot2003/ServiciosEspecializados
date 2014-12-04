@@ -10,6 +10,16 @@
 	-webkit-animation-duration: 20s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
+
+	-moz-animation-name: SCROLL;
+	-moz-animation-duration: 20s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+
+	animation-name: SCROLL;
+	animation-duration: 20s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 	
 	.container{
 			padding-top: 17.5rem;

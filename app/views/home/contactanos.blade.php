@@ -11,7 +11,7 @@
 			<form ng-submit="sendMail()" class="col s12 responseContainer">
 						
 
-				<div class="response brown darken-1" ng-show="responses === true">
+				<div class="response cyan darken-4" ng-show="responses === true">
 					<div class="close-x">
 						<span class="form-close close mdi-navigation-close" ng-click="responses = false"></span>
 					</div>
@@ -62,7 +62,7 @@
 				<div class="input-field col s12">
 					<button type="submit" class="btn btn-default">Enviar</button>				
 				</div>
-				<fieldset class="teal lighten-2">
+				<fieldset class="red darken-1">
 					<p class="white-text">Los asteriscos(*) significan que el campo es obligatorio</p>
 					<p class="white-text">Tambien puedes ponerte en contacto con nosotros escribiendo a <em>admin@webmasterhn.net</em> o llamando al <em>(504) 3258-7511</em>
 				</fieldset>

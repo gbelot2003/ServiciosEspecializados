@@ -116,3 +116,30 @@
 		background-position: 471px 0px, 0px 0px
 	}
 }
+
+@-moz-keyframes SCROLL {
+	from {
+		background-position: 0px 0px, 0px 0px
+	}
+	to { 
+		background-position: 471px 0px, 0px 0px
+	}
+}
+
+@-o-keyframes SCROLL {
+	from {
+		background-position: 0px 0px, 0px 0px
+	}
+	to { 
+		background-position: 471px 0px, 0px 0px
+	}
+}
+
+@keyframes SCROLL {
+	from {
+		background-position: 0px 0px, 0px 0px
+	}
+	to { 
+		background-position: 471px 0px, 0px 0px
+	}
+}
