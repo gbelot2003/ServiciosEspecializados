@@ -1,5 +1,4 @@
 /bootstrap/compiled.php
-/public/bower_components
 /public/packages
 /public/.sass-cache
 /public/node_modules
