@@ -15,6 +15,15 @@ class CreateDetallesTable extends Migration {
 		Schema::create('detalles', function(Blueprint $table)
 		{
 			$table->increments('id');
+			$table->string('name');
+			$table->string('location')->nullable();
+			$table->string('cargo')->nullable();
+			$table->string('imagen')->nullable();
+			$table->string('website')->nullable();
+			$table->string('github')->nullable();
+			$table->string('facebook')->nullable();
+			$table->string('tweeter')->nullable();
+			$table->string('about')->nullable();
 			$table->timestamps();
 		});
 	}
