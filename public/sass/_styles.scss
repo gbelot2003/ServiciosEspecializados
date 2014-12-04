@@ -20,6 +20,9 @@ h1.title, h2.title, h3.title, h4.title, h5.title{
 	margin-right: 1rem;
 }
 
+.mContenido {
+	padding: 0 2.3rem;
+}
 
 .panel {
 
@@ -46,6 +49,24 @@ footer{
 	color:white;
 	padding: 5em 0;
 
+}
+
+
+.form-close{
+	font-size: 1.5rem;
+	padding-right: 0.8rem;
+	color: white;
+}
+
+.responseContainer {
+	position: relative;
+}
+
+.response {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 99;
 }
 
 /***** paginas *****/

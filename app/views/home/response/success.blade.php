@@ -1,1 +1,3 @@
-<h3>Envio exitoso</h3>
+@if(Session::has('global'))
+	{{ Session::get('global') }}
+@endif

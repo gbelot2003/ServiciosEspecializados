@@ -12893,6 +12893,14 @@ nav.ng-hide {
 
 /**************************************/
 /* line 63, ../sass/_animations.scss */
+.response.ng-hide {
+  -webkit-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+  opacity: 0;
+}
+
+/*************************************/
+/* line 72, ../sass/_animations.scss */
 #bg-red,
 #bg-green,
 #bg-dark,
@@ -12909,7 +12917,7 @@ nav.ng-hide {
   opacity: 0;
 }
 
-/* line 79, ../sass/_animations.scss */
+/* line 88, ../sass/_animations.scss */
 #bg-dark {
   opacity: 1;
   background: -webkit-linear-gradient(45deg, #080909 0%, #806969 50%, #616161 100%);
@@ -12918,7 +12926,7 @@ nav.ng-hide {
   background: linear-gradient(45deg, #080909 0%, #806969 50%, #616161 100%);
 }
 
-/* line 86, ../sass/_animations.scss */
+/* line 95, ../sass/_animations.scss */
 #bg-green {
   background: -webkit-linear-gradient(45deg, #07342e 0%, #76c7bc 50%, #1d8c7e 100%);
   background: -o-linear-gradient(45deg, #07342e 0%, #76c7bc 50%, #1d8c7e 100%);
@@ -12935,7 +12943,7 @@ nav.ng-hide {
   -webkit-animation-iteration-count: infinite;
 }
 
-/* line 101, ../sass/_animations.scss */
+/* line 110, ../sass/_animations.scss */
 #bg-red {
   background: -webkit-linear-gradient(45deg, #590000 0%, #bd7474 50%, #8f2222 100%);
   background: -o-linear-gradient(45deg, #590000 0%, #bd7474 50%, #8f2222 100%);
@@ -12952,7 +12960,7 @@ nav.ng-hide {
   -webkit-animation-iteration-count: infinite;
 }
 
-/* line 116, ../sass/_animations.scss */
+/* line 125, ../sass/_animations.scss */
 #bg-blue {
   background: -webkit-linear-gradient(45deg, #0f333e 0%, #6cb0c4 50%, #1287a8 100%);
   background: -o-linear-gradient(45deg, #0f333e 0%, #6cb0c4 50%, #1287a8 100%);
@@ -12982,12 +12990,17 @@ a {
   margin-right: 1rem;
 }
 
-/* line 28, ../sass/_styles.scss */
+/* line 23, ../sass/_styles.scss */
+.mContenido {
+  padding: 0 2.3rem;
+}
+
+/* line 31, ../sass/_styles.scss */
 .panel h4 {
   display: inline;
 }
 
-/* line 32, ../sass/_styles.scss */
+/* line 35, ../sass/_styles.scss */
 .fixed {
   position: fixed;
   top: 0;
@@ -12997,13 +13010,33 @@ a {
 }
 
 /*************************/
-/* line 42, ../sass/_styles.scss */
+/* line 45, ../sass/_styles.scss */
 footer {
   height: 100%;
   min-height: 5rem;
   background: #EE6E73;
   color: white;
   padding: 5em 0;
+}
+
+/* line 55, ../sass/_styles.scss */
+.form-close {
+  font-size: 1.5rem;
+  padding-right: 0.8rem;
+  color: white;
+}
+
+/* line 61, ../sass/_styles.scss */
+.responseContainer {
+  position: relative;
+}
+
+/* line 65, ../sass/_styles.scss */
+.response {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 99;
 }
 
 /***** paginas *****/

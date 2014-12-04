@@ -41,10 +41,23 @@ class HomeController extends BaseController {
 	}
 
 	public function contactanosForm(){
-		// Validación
-		
-		
-		Redirect::route('success');
+
+			$nombre 		= Input::get('nombre');
+			$organizacion   = Input::get('organizacion');
+			$email 			= Input::get("email");
+			$asunto 		= Input::get('asunto');
+			$body 			= Input::get('body');
+
+			$mensaje = array(
+				'nombre' => $nombre,
+				'organizacion' => $organizacion,
+				'email' => $email,
+				'asunto' => $asunto,
+				'body' => $body
+			);
+
+			return Redirect::route('success')->with('global', "Su Mensaje a sido enviado exitosamente");
+
 	}
 
 	public function success(){

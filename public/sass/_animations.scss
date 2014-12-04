@@ -60,6 +60,15 @@ nav.ng-hide{
 
 /**************************************/
 
+.response.ng-hide{
+    -webkit-transition:0.5s linear all;
+    transition:0.5s linear all;
+    opacity:0;
+}
+
+
+/*************************************/
+
 #bg-red,
 #bg-green,
 #bg-dark, 
