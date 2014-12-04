@@ -60,7 +60,7 @@
 			        <textarea id="body" placeholder="Mensaje *" ng-model="mailBody"></textarea>                
 				</div>
 				<div class="input-field col s12">
-					<button type="submit" class="btn btn-default waves-effect waves-light hide-on-med-and-down">Enviar</button>				
+					<button type="submit" class="btn btn-default waves-effect waves-light">Enviar</button>				
 				</div>
 				<fieldset class="red darken-1">
 					<p class="white-text">Los asteriscos(*) significan que el campo es obligatorio</p>
