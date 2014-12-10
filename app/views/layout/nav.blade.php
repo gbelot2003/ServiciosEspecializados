@@ -2,7 +2,7 @@
   <div class="nav-wrapper">
     <a href="#/" class="brand-logo right">Servicios Especializados</a>
     <ul id="nav-mobile" class="left side-nav">
-      <li ng-class="navClass('proyecto')"><a href="#/proyecto">Projecto</a></li>
+      <li ng-class="navClass('proyecto')"><a href="#/proyecto">Proyecto</a></li>
       <li ng-class="navClass('portafolios')"><a href="#/portafolios">Portafolios</a></li>
       <li ng-class="navClass('blogs')"><a href="#/blogs">Blogs</a></li>
       <li ng-class="navClass('contactanos')"><a href="#/contactanos">Contactanos</a></li>
